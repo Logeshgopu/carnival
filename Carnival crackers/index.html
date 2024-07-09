@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CARNIVAL CRACKERS</title>
+    <link rel="stylesheet" href="addtocart.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/92d70a2fd8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <h1>ROCK CRACKERS</h1>
+    <div class="moving-line">
+        <marquee>WELCOME TO CARNIVAL CRACKERS!!!&nbsp;&nbsp;&nbsp;BEST CRACKERS SELLER!!!&nbsp;&nbsp;&nbsp; HAPPY DIWALI!!! &nbsp;&nbsp;&nbsp; DISCOUNTS ARE AVAILABLE!!!  &nbsp;&nbsp;&nbsp;<i class="fa fa-phone"></i> CONTACT:&nbsp;+91&nbsp;96263 64512</marquee>
+    </div>
+    <br>
+    <div class="header">
+        <div class="logo">
+            <img src="logo/logo.svg.svg" width="200" height="100" alt="Carnival Crackers Logo">
+        </div>
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="Carnival crackers price list 2023.pdf">Price List</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+        <div class="cart" onclick="toggleCart()">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <p id="count">0</p>
+        </div>
+    </div>
+    <div class="intro">
+        <h2>Welcome to Carnival Crackers!</h2><br>
+        <h3>Ignite Your Celebrations with the Best Fireworks in Town!</h3><br>
+        <p>At Carnival Crackers, we bring you the finest selection of fireworks to light up your celebrations and make every moment unforgettable.<br> Whether it's Diwali, New Year, a wedding, or any special occasion, our extensive range of vibrant and spectacular fireworks will add a magical touch to your festivities.</p><br>
+    </div>
+    <div class="container">
+        <div id="root"></div>
+        <div class="sidebar" id="sidebar">
+            <div class="head"><p>My Cart</p></div>
+            <div id="cartItem">Your cart is empty</div>
+            <div class="foot">
+                <h3>Total</h3>
+                <h2 id="total">$ 0.00</h2>
+            </div>
+            <button id="orderButton" onclick="orderItems()">Order</button>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Carnival Crackers. All rights reserved.</p>
+    </footer>
+    <script src="addtocart.js"></script>
+</body>
+</html>
